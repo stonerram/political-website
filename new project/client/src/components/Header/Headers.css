@@ -1,0 +1,53 @@
+.h-wrapper{
+   color: white;
+   z-index: 99;
+   background-color: transparent;
+}
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary);
+}
+
+.h-menu {
+    gap: 2rem;
+    z-index: 99;
+    font-size: bold;
+
+}
+
+.h-menu>*:hover{
+    cursor: pointer;
+}
+.menu-icon{
+    display: none;
+}
+
+/* Headers.css or a separate CSS file */
+/* Headers.css */
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999; /* Ensure it is below the modal content */
+  }
+  
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
